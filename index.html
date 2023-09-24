@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatApp - By Using Node & Socket.IO</title>
+    <script src="https://kit.fontawesome.com/bc67a5aaa1.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script defer  src="js/cilent.js"></script>
+    <link rel="icon" href="images/logo1.png" type="image/png"> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <div class="head">
+            <img src="images/logo1.png" alt="ChatApp" class="logo">
+            <h1 class="logoAbout">ChatApp with Node & Socket.IO</h1>
+
+        </div>
+
+    </nav>
+    <div class="maincontainer">
+        <h1>Recent Conversations</h1>
+        <div class="container">
+            <div class="JoinLeave center">You have Joined</div>
+            <!-- <div class="messageReceive left"></div>
+            <div class="messageSend right"></div> -->
+            
+        </div>
+        <div class="send">
+            <form action="#" id="send-container">
+                <input type="text" name="messageInput" id="messageInput" class="messageBox" placeholder="Enter Your Message...">
+                <button type="submit" class="btn"><i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
